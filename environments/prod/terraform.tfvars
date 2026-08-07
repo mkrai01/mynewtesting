@@ -3,6 +3,7 @@ rgs = {
     name     = "rg-chor-prod"
     location = "centralindia"
   }
+  
 }
 
 vnets = {
@@ -39,12 +40,7 @@ subnets = {
     virtual_network_name = "vnet-chor-prod"
     address_prefixes     = ["10.0.4.0/26"]
   }
-  snet5 = {
-    name                 = "AppGatewaySubnet"
-    resource_group_name  = "rg-chor-prod"
-    virtual_network_name = "vnet-chor-prod"
-    address_prefixes     = ["10.0.5.0/24"]
-  }
+  
 }
 
 public_ips = {
