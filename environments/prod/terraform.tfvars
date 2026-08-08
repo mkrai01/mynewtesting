@@ -34,12 +34,7 @@ subnets = {
     virtual_network_name = "vnet-chor-prod"
     address_prefixes     = ["10.0.3.0/24"]
   }
-  snet4 = {
-    name                 = "AzureBastionSubnet"
-    resource_group_name  = "rg-chor-prod"
-    virtual_network_name = "vnet-chor-prod"
-    address_prefixes     = ["10.0.4.0/26"]
-  }
+  
   
 }
 
