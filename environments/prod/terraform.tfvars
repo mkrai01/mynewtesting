@@ -28,12 +28,7 @@ subnets = {
     virtual_network_name = "vnet-chor-prod"
     address_prefixes     = ["10.0.2.0/24"]
   }
-  snet3 = {
-    name                 = "database-subnet-prod"
-    resource_group_name  = "rg-chor-prod"
-    virtual_network_name = "vnet-chor-prod"
-    address_prefixes     = ["10.0.3.0/24"]
-  }
+  
   
   
 }
